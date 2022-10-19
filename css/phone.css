@@ -1,0 +1,15 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 25px; 
+}
+header{
+    height: 100px;
+    overflow: hidden;
+}
+#navbar ul li a{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+h1{
+    margin-bottom: 10px;
+}

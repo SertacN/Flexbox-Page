@@ -7,3 +7,33 @@
 html{
     font-family: 'Roboto', sans-serif;
 }
+body{
+    background-color: antiquewhite;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+}
+#navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+header{
+    height: 80px;
+}
+#navbar ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#navbar ul li a:hover{
+    background-color: #860000;
+    transition: all ease-in-out .3s;
+}
+

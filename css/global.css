@@ -1,0 +1,25 @@
+/*color*/
+.bg-darkred{
+    background-color: #4E0000;
+}
+
+.bg-lightred{
+background-color: #D16969;
+}
+
+/*container*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*text*/
+.text-small{
+    font-size: 1.25rem;
+}
+.text-medium{
+    font-size: 1.5rem;
+}
+.text-large{
+    font-size: 1.75rem;
+}
