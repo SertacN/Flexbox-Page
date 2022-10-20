@@ -7,12 +7,6 @@
 background-color: #D16969;
 }
 
-/*container*/
-.container{
-    width: 80%;
-    margin: 0 auto;
-}
-
 /*text*/
 .text-small{
     font-size: 1.25rem;
@@ -22,4 +16,28 @@ background-color: #D16969;
 }
 .text-large{
     font-size: 1.75rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/*image*/
+.small-img{
+    width: 40%;
+}
+
+.medium.img{
+    width: 60%;
+}
+.large-img{
+    width: 100%;
+}
+.float-left{
+    float: left;
+    margin-right: 10px;
+}
+.float-right{
+    float: right;
+    margin-left: 10px;
 }

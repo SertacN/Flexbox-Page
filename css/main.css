@@ -9,6 +9,8 @@ html{
 }
 body{
     background-color: antiquewhite;
+
+                /* NAV-BAR*/
 }
 #navbar{
     display: flex;
@@ -16,6 +18,8 @@ body{
     align-items: center;
     color: white;
     padding-top: 20px;
+    margin: 0 auto;
+    width: 80%;
 }
 #navbar ul{
     list-style: none;
@@ -23,7 +27,9 @@ body{
     align-items: center;
 }
 header{
-    height: 80px;
+   display: flex;
+   height: 8vh;
+   overflow: hidden;
 }
 #navbar ul li a{
     padding: 20px;
@@ -36,4 +42,42 @@ header{
     background-color: #860000;
     transition: all ease-in-out .3s;
 }
+                /*MAİN-AREA*/
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+.left-area{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 50%;
+}
+.content-area1{
+    height: 40vh;
+    width: 100%;
+    background-color: purple;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    overflow: auto;
+    
+}
+.content-area2{
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(0, 140, 98);
+    overflow: auto;
+}
+.main-container .left-area .content-area1 h2{
+    color: white;
+    margin-bottom: 10px;
+}
+.main-container .left-area .content-area2 h2{
+    color: rgb(248, 178, 178);
+    margin-bottom: 10px;
+}
+
+
 
