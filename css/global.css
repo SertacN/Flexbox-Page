@@ -24,11 +24,11 @@ background-color: #D16969;
 
 /*image*/
 .small-img{
-    width: 40%;
+    width: 20%;
 }
 
-.medium.img{
-    width: 60%;
+.medium-img{
+    width: 40%;
 }
 .large-img{
     width: 100%;
@@ -36,8 +36,13 @@ background-color: #D16969;
 .float-left{
     float: left;
     margin-right: 10px;
+    margin-left: 5px;
 }
 .float-right{
     float: right;
     margin-left: 10px;
+    margin-right: 5px;
+}
+.center{
+    margin-left: 30%;
 }

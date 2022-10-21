@@ -13,15 +13,19 @@ header{
 h1{
     margin-bottom: 10px;
 }
-.main-container{
+#main-container{
     width: 100%;
     padding-right: 0;
     padding-left: 0;
+    flex-direction: column;
+    display: flex;
 }
 
 .left-area{
-    display: flex;
-    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+}
+.right-area{
     height: 80vh;
     width: 100%;
 }
